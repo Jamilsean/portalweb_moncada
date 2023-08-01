@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+    .item-nav{
+        @apply font-semibold hover:text-cyan-500;
+    }
+}
+
